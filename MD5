@@ -1,0 +1,6 @@
+24339d07d447e4a1e34bbaa4112bef7b *DESCRIPTION
+519a7619721d18964a4a4142354b39d4 *NAMESPACE
+57377bc226d8e9cf43537fc9b0e439b2 *R/rh.sd.bonferroni.R
+dcf6ddde9b48c98a16cacf31adf9a686 *R/rh.sd.sidak.R
+724bb2440fb2bef99d091e31da016fad *man/rh.sd.bonferroni.Rd
+d7f8dc3867f4a2e109cee6a3cad6126e *man/rh.sd.sidak.Rd
