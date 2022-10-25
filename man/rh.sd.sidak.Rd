@@ -33,6 +33,8 @@ Update:
 
 Version 0.1.0: The first version.
 
+Version 0.2.0: Fix the bug for maintaining monotonicity of the ranking p-values.
+
 }
 \seealso{
 \code{\link{rh.sd.bonferroni}}

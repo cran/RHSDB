@@ -16,6 +16,9 @@ rh.sd.bonferroni=function(p,effect,effect.se,df,type="mean",sig=0.05,side="two",
   #   ci.l=effect-z*effect.se
   #   ci.u=effect+z*effect.se
   # }
+  for(i in 2:max(m)){
+    if(p.adj[which(m==i)]>p.adj[which(m==(i-1))]){p.adj[which(m==(i-1))]=p.adj[which(m==i)]}
+  }
   out<-data.frame(p.adj,ci.adj.l=ci.l,ci.adj.u=ci.u)
   out<-round(out,digits)
   return(out)
